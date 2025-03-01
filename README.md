@@ -41,6 +41,8 @@ Where:
 - **A and B** are the feature vectors of two products.
 - **Numerator** represents the dot product of the vectors.
 - **Denominator** is the product of their magnitudes.
+- 
+![image](https://github.com/user-attachments/assets/18b33095-2e48-4c7e-8902-4bd600ae57e4)
 
 ### **3.4 Clustering Similar Products**
 We use **K-Means Clustering** to group similar items together. Steps involved:
@@ -48,6 +50,8 @@ We use **K-Means Clustering** to group similar items together. Steps involved:
 2. Apply **K-Means clustering** to group similar items.
 3. Assign a cluster label to each product.
 4. Given an input product, find its cluster and recommend other products within the same cluster.
+5. 
+![image](https://github.com/user-attachments/assets/686e1d5a-cd37-47f5-8cb5-66b534886345)
 
 ### **3.5 Building the Recommendation Engine**
 The final step involves creating a function that:
