@@ -36,9 +36,7 @@ We extract the following feature types:
 To find similar products, we compute the **Pairwise Cosine Similarity** between product feature vectors.
 
 #### **Cosine Similarity Formula:**
-\[
-\text{Similarity}(A, B) = \frac{A \cdot B}{||A|| ||B||}
-\]
+$$\text{Similarity}(A, B) = \frac{A \cdot B}{||A|| ||B||}$$
 Where:
 - **A and B** are the feature vectors of two products.
 - **Numerator** represents the dot product of the vectors.
